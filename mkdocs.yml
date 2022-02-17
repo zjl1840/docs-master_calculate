@@ -1,0 +1,142 @@
+site_name: 'DataEase 文档'
+site_url: 'https://dataease.io'
+site_description: 'Document'
+site_author: 'Dataease'
+google_analytics: ['UA-147297392-11', 'dataease.io']
+
+repo_name: 'DataEase'
+repo_url: 'https://github.com/dataease/dataease'
+
+edit_uri: https://github.com/dataease/docs/edit/master/docs/
+theme:
+    name: 'material'
+    logo: 'img/logo-white.png'
+    favicon: 'img/facio.ico'
+    language: 'zh'
+    highlightjs: true
+    hljs_languages:
+        - yaml
+        - django
+    palette:
+        - scheme: default
+          accent: blue
+          toggle:
+              icon: material/weather-sunny
+              name: Switch to dark mode
+        - scheme: slate
+          accent: blue
+          toggle:
+              icon: material/weather-night
+              name: Switch to light mode
+    features:
+        - navigation.instant
+        - navigation.tracking
+        - navigation.indexes
+        - navigation.top
+        - search.suggest
+        - search.highlight
+        - search.share
+        - header.autohide
+        - content.tabs.link
+    custom_dir: "theme"
+nav:
+    - 产品介绍: index.md
+    - 系统架构: system_arch.md
+    - 安装部署: 
+        - 在线安装: installation/online_installation.md
+        - 离线安装: installation/offline_installation.md
+        - 离线安装(Windows): installation/offline_installation_windows.md
+        - 在线升级: installation/online_upgrade.md
+        - 离线升级: installation/offline_upgrade.md
+    - 用户手册:
+        - 通用功能: user_manual/general.md
+        - 数据源: user_manual/datasource_configuration.md
+        - 数据集: user_manual/dataset_configuration.md
+        - 视图: user_manual/view_generation.md
+        - 仪表板: user_manual/dashboard_generation.md
+        - 手机端: user_manual/app.md
+        - 系统管理:
+            - 用户管理: user_manual/system_management/user.md
+            - 模版管理: user_manual/system_management/module.md
+            - 站内消息: user_manual/system_management/message.md
+            - 定时任务: user_manual/system_management/task.md
+        - 命令行工具: user_manual/cli.md
+    - 使用教程:
+        - 仪表板制作示例:
+            - 制作【销售仪表板】: manual_demo/dashboard_flow/sales_dashboard.md
+            - 制作【2021年全国GDP数据】: manual_demo/dashboard_flow/china_gdp_2021.md
+        - 使用进阶:
+            - 常见使用技巧: manual_demo/tips.md
+            - 计算字段使用: manual_demo/calculate_fields.md
+    - 常见问题:
+        - 安装配置: faq/configuration_faq.md
+        - 备份还原: faq/backup_faq.md
+        - 系统管理: faq/system_management.md
+        - 数据集: faq/dataset_faq.md
+        - 仪表板: faq/panel_faq.md
+        - 开发问题: faq/dev_faq.md
+        - 安全问题: faq/security_faq.md
+        - 企业版: faq/enterprise_faq.md
+    - 开发文档: 
+        - 开发环境搭建: dev_manual/dev_manual.md
+        - 源码部署（前后端分离）: dev_manual/dev_deployment.md
+    - 技术咨询: https://jinshuju.net/f/e40eKK
+    - 关于:
+        - 更新说明: about/changelog.md
+        - 联系我们: about/contact.md
+
+markdown_extensions:
+    - admonition
+    - codehilite:
+          guess_lang: True
+          linenums: False
+    - toc:
+          permalink: True
+    - footnotes
+    - attr_list
+    - def_list
+    - tables
+    - abbr
+    - md_in_html
+    - pymdownx.extra
+    - pymdownx.arithmatex
+    - pymdownx.betterem:
+          smart_enable: all
+    - pymdownx.caret
+    - pymdownx.critic
+    - pymdownx.details
+    - pymdownx.emoji:
+          emoji_generator: !!python/name:pymdownx.emoji.to_png
+    - pymdownx.inlinehilite
+    - pymdownx.magiclink
+    - pymdownx.mark
+    - pymdownx.smartsymbols
+    - pymdownx.superfences
+    - pymdownx.tasklist
+    - pymdownx.tilde
+    - pymdownx.betterem
+    - pymdownx.progressbar
+    - lightgallery
+    - pymdownx.tabbed
+
+extra_css:
+    - css/extra.css
+
+copyright: Copyright &copy; 2014-2021 <a href="https://www.fit2cloud.com">杭州飞致云信息科技有限公司</a>, All Rights Reserved. <a href="http://www.beian.miit.gov.cn" target="_blank">京ICP备15023818号</a>
+
+plugins:
+    - search
+
+extra:
+    version:
+        method: mike
+    analytics:
+        provider: google
+        property: UA-147297392-11
+    social:
+        - icon: fontawesome/brands/github
+          link: https://github.com/dataease
+        - icon: fontawesome/solid/envelope
+          link: mailto:support@fit2cloud.com
+        - icon: fontawesome/solid/phone
+          link: tel://400-052-0755
