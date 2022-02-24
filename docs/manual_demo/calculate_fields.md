@@ -240,9 +240,9 @@
 ![image.png](../img/calculate_fields/CASE-WHEN.png){width="900px"}
 
 
-!!! info "下面会介绍 MySql 数据库特有的常用的函数，注意：有部分 MySql 的函数和非直连数据集重合的需要参考非直连数据库。"
 
-# MySql 数据库
+# MySQL 数据库
+!!! info "下面会介绍 MySQL 数据库特有的常用的函数，注意：有部分 MySQL 的函数和非直连数据集重合的需要参考非直连数据库。"
 ## 字符串函数
 ### 1.字符反转函数
 
@@ -313,11 +313,7 @@
 ![image.png](../img/calculate_fields/LOG(x).png){width="900px"}
 
 
-!!! info "下面会介绍 Oracle 数据库特有的常用的函数，注意：有部分 Oracle 的函数和非直连数据集重合的需要参考非直连数据库。"
 
-[//]: # (# Oracle 数据库)
-
-[//]: # (##日期函数)
 
 
 
