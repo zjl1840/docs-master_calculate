@@ -49,7 +49,7 @@
 ![LDAP设置2](../img/xpack/LDAP2.png){ width="900px" }
 
 !!! Abstract ""
-    配置完成后，随即跳转到登录页面即可使用 LDAP![img.png](img.png) 登录。。
+    配置完成后，随即跳转到登录页面即可使用 LDAP方式登录。
 
 ![LDAP设置1](../img/xpack/LDAP3.png){ width="900px" }
 ##4 OIDC设置
