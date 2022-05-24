@@ -1,7 +1,7 @@
 ##1 集成与扩展入口
 
 !!! Abstract ""
-    API Keys是用户获取 Keys 来调试接口的入口，用户可通过【创建】获取到 API Key，点击 "API Keys" 可查阅 DataEase 相关接口。
+    API Keys 是用户获取 Keys 来调试接口的入口，用户可通过【创建】获取到 API Key，点击 "API Keys" 可查阅 DataEase 相关接口。
 
 ![组件置底_基础功能](../img/xpack/API-KEY.png){ width="900px" }
 
