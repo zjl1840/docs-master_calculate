@@ -74,14 +74,22 @@
 
 ![仪表板_导出pdf](../img/dashboard_generation/仪表板_导出pdf预览.png){ width="900px" }
 
-## 7 预览
+## 7 导出为 图片
+
+!!! Abstract ""
+	点击下图中所示位置，点击可弹出 pdf 的预览窗口。
+
+![仪表板_保存为图片](../img/dashboard_generation/仪表板_保存为图片.png){ width="900px" }
+
+
+## 8 预览
 
 !!! Abstract ""
 	支持两种预览方式，第一种：新打开页面预览，第二种：全屏预览仪表盘。
 
 ![仪表板_预览](../img/dashboard_generation/仪表板_预览.png){ width="900px" }
 
-## 8 查看明细
+## 9 查看明细
 
 !!! Abstract ""
 	预览模式下，视图可放大，可查看明细并下载。
@@ -90,7 +98,7 @@
 
 ![仪表板_预览](../img/dashboard_generation/查看明细.png){ width="900px" }
 
-## 9 收藏 
+## 10 收藏 
 
 !!! Abstract ""
 	点击下图中所示位置，收藏仪表板。
@@ -102,7 +110,7 @@
 
 ![仪表板_收藏列表](../img/dashboard_generation/仪表板_收藏列表.png){ width="900px" }
 
-## 10 刷新
+## 11 刷新
 
 !!! Abstract ""
 	仪表板刷新提供手动与自动两种方式，其中自动刷新配置如下，完成配置后需保存仪表板进入预览界面查看效果。

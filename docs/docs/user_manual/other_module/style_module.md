@@ -29,3 +29,9 @@
 	如下图所示，可设置 Tab 组件内部样式。
 
 ![Tab页内部样式编辑](../../img/dashboard_generation/Tab页内部样式编辑.png){ width="900px" }
+
+!!! Abstract ""
+	用户在制作仪表板时，可通过选项卡放置非视图类组件，目前支持视频、流媒体、网页。
+
+![Tab页内部样式编辑](../../img/dashboard_generation/Tab页非视图类组件.png){ width="900px" }
+
