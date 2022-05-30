@@ -104,7 +104,7 @@ nav:
             - 组织管理: xpack/sys_management_organization.md
             - 权限管理: xpack/sys_management_permission.md
             - 系统参数: xpack/sys_management.md
-            - 集成与扩展: xpack/sys_management_develop.md
+            - 系统 API: xpack/sys_management_develop.md
             - 定时报告: xpack/sys_management_report.md
     - 教学视频: instructional_video.md
     - 常见问题:
